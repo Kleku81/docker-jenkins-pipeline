@@ -45,7 +45,7 @@
                 <configuration>
                     <mainClass>org.example.pipeline.Main</mainClass>
                     <environmentVariables>
-                        <DB_URI>localhost</DB_URI>
+                        <DB_URI>node5</DB_URI>
                     </environmentVariables>
                 </configuration>
             </plugin>
