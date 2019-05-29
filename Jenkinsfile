@@ -1,4 +1,4 @@
-node {
+node ('node5'){
   checkout scm
   env.PATH = "${tool 'M3'}/bin:${env.PATH}"
   stage('Package') {
